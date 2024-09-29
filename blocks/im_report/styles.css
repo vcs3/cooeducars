@@ -1,0 +1,108 @@
+
+  @import url('http://fonts.cdnfonts.com/css/aller');
+
+  body { 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12pt; 
+}
+
+ table td {
+
+  border-spacing: 15px 10px;
+  border-collapse: collapse;
+  font-size:10pt; 
+ }
+
+  table.alunos td {
+
+  border-spacing: 15px 10px;
+  border-collapse: collapse;
+  font-size:16pt; 
+ 
+ }
+ table.alunos th {
+
+  border-spacing: 15px 10px;
+  border-collapse: collapse;
+  font-size:12pt; 
+
+ }
+ .rotate {
+
+  transform: rotate(-90deg);
+
+  /* Legacy vendor prefixes that you probably don't need... */
+
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+
+  /* IE */
+  -ms-transform: rotate(-90deg);
+
+  /* Opera */
+  -o-transform: rotate(-90deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+.tooltip {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: left;
+  text-align: start;
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: none;
+  letter-spacing: normal;
+  word-break: normal;
+  word-spacing: normal;
+  word-wrap: normal;
+  white-space: normal;
+  color: #999;
+  /* ... */
+}
+
+.tooltip-inner {
+    /*background-color: #fff !important;*/
+    background: url(/blocks/mba_trilhas/pix/balao.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 200px;
+    color: #999 ;
+    height: 110px;
+  }
+  .bs-tooltip-top .arrow::before, .bs-tooltip-auto[x-placement^="top"] .arrow::before {
+    border-top-color: #fff !important;
+  }
+  
+  .bs-tooltip-right .arrow::before, .bs-tooltip-auto[x-placement^="right"] .arrow::before {
+    border-right-color: #fff !important;
+    color: #999 ;
+  }
+  
+  
+  .bs-tooltip-bottom .arrow::before, .bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
+    border-bottom-color: #fff !important;
+    color: #999 ;
+  }
+  
+  
+  .bs-tooltip-left .arrow::before, .bs-tooltip-auto[x-placement^="left"] .arrow::before {
+    border-left-color: #fff !important;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
